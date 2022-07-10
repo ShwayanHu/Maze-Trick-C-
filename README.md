@@ -156,7 +156,7 @@ Function $Creat\_Maze(Maze*\ M)$ allows you to decide whether excecute $Random\_
 
 Function $Read\_Maze(Maze* M)$ prints the maze to the terminal. In current version($N=10$), the output is tidy and beautiful. But as the $N$ changes, it may suffer from messy. This is a point needed to improve!
 
-Function $Solve\_Maze(Maze*\ M,int\ i,int\ j,SqStack\&\ S )$ shows the process of solving the maze. Using stack, you will find the player(computer, at least for right now) meet the wall times after times and go backward for many times.
+Function $Solve\_Maze(Maze*\ M,int\ i,int\ j,SqStack\ S )$ ($S$ should be quoted with '&', but for some unknown error, we can't add it.Please pay attention.)shows the process of solving the maze. Using stack, you will find the player(computer, at least for right now) meet the wall times after times and go backward for many times. The path will be saved in the $S$. 
 
 Function $Get\_Path(Maze*\ M,SqStack\ S)$ prints the solution if it is solvable, or simply tell the user that the maze is unsolvable. 
 
